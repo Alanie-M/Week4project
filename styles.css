@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+#taskInput {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+#addTaskBtn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#addTaskBtn:hover {
+  background-color: #0056b3;
+}
+
+
+ul#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+
+/*Tasks*/
+li.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #fafafa;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+
+li.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  background: #fafafa;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+
+.task span {
+  flex-grow: 1;
+}
+
+
+.taskCheckbox {
+  margin-right: 10px;
+}
+
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+
+
+
+
+button.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+button.editBtn, button.saveBtn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+button.saveBtn {
+  background-color: green;
+}
+
+
+.editInput {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .input-section {
+    flex-direction: column;
+  }
+
+
+  #addTaskBtn {
+    width: 100%;
+  }
+}
