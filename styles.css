@@ -2,14 +2,12 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
 }
-
 
 .container {
   max-width: 500px;
@@ -19,7 +17,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
-
 
 h1 {
   text-align: center;
