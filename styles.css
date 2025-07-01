@@ -4,15 +4,15 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f4f4;
+  background-color: #d2ade1;
   margin: 0;
   padding: 20px;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 750px;
   margin: auto;
-  background: white;
+  background: rgb(141, 85, 150);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -20,7 +20,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #f9f9f9;
 }
 
 
